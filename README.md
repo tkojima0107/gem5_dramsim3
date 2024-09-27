@@ -4,8 +4,15 @@
 
 1. Clone the repository
 2. Docker image build
+Option 1: Build the image from the Dockerfile
 ```
 docker-compose build
+```
+
+Option 2: Download the image from Docker Hub
+```
+docker pull tkojima0107/gem5_dramsim3:latest
+docker tag tkojima0107/gem5_dramsim3:latest gem5_dramsim3:latest
 ```
 
 3. Docker container run
